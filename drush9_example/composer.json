@@ -1,0 +1,22 @@
+{
+  "name": "drupal/drush9_example",
+  "description": "A example module for Drush 9 commands.",
+  "type": "drupal-module",
+  "autoload": {
+    "psr-4": {
+      "Drupal\\drupalmoduleupgrader\\": "src/"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Drupal\\drush9_example\\": "src/"
+    }
+  },
+  "extra": {
+    "drush": {
+      "services": {
+        "drush.services.yml": "^9"
+      }
+    }
+  }
+}

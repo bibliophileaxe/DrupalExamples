@@ -1,0 +1,5 @@
+services:
+  drupalmoduleupgrader.commands:
+    class: \Drupal\drush9_example\Commands\Drush9ExampleCommands
+    tags:
+      - { name: drush.command }
