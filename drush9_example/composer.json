@@ -4,11 +4,6 @@
   "type": "drupal-module",
   "autoload": {
     "psr-4": {
-      "Drupal\\drupalmoduleupgrader\\": "src/"
-    }
-  },
-  "autoload": {
-    "psr-4": {
       "Drupal\\drush9_example\\": "src/"
     }
   },
